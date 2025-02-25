@@ -1,6 +1,5 @@
 package ua.com.kneu.unit1;
 
-import java.util.Arrays;
 import java.util.Date;
 import java.util.stream.Stream;
 
