@@ -1,9 +1,8 @@
-package ua.com.kneu.groupe_202;
+package ua.com.kneu.groupe_202.unit1;
 
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class MySet {
 

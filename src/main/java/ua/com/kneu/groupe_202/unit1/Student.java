@@ -1,4 +1,4 @@
-package ua.com.kneu.groupe_202;
+package ua.com.kneu.groupe_202.unit1;
 
 
 // v.1 Клас "Студентів"

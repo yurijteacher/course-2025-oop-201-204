@@ -1,4 +1,4 @@
-package ua.com.kneu.groupe_202;
+package ua.com.kneu.groupe_202.unit1;
 
 import java.util.ArrayList;
 import java.util.Comparator;
