@@ -1,7 +1,5 @@
 package ua.com.kneu.groupe_202.lab2.homework.online_shop;
 
-import ua.com.kneu.groupe_202.unit2.aggregation.Car;
-
 import java.util.List;
 
 public class Product {
@@ -12,6 +10,8 @@ public class Product {
     private double price;
     private String linkImage;
 
+    private Category category;
+
     private List<ProductHasOrder> productHasOrderList;
 
     public List<ProductHasOrder> getProductHasOrderList() {
@@ -21,8 +21,6 @@ public class Product {
     public void setProductHasOrderList(List<ProductHasOrder> productHasOrderList) {
         this.productHasOrderList = productHasOrderList;
     }
-
-    private Category category;
 
     public Product() {
     }
