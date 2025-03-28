@@ -5,6 +5,7 @@ import ua.com.kneu.lecture.structural.adapter.v2.UserDetails;
 public class Customer implements UserDetails {
 
     private Long id;
+
     private String login;
     private String password;
 

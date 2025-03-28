@@ -4,7 +4,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Component component = new ColorDecorator(new PanelDecorator(new ColorDecorator(new TextComponent())));
+        Component component = new PanelDecorator(new ColorDecorator(new PanelDecorator(new ColorDecorator(new TextComponent()))));
 
         component.draw();
 
